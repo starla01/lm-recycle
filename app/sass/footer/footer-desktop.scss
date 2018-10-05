@@ -1,0 +1,77 @@
+#footer {
+    width: 100%;
+    background-color: $gris-fuerte;
+    position: relative;
+    bottom: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-top: 2px solid $verde-fuerte;
+    z-index: 10;
+    float: left;
+    .columns {
+        width: 70%;
+        margin: 0 auto;
+        position: relative;
+        box-sizing: border-box;
+        overflow: hidden;
+        .col {
+            float: left;
+            width: 25%;
+            border: 0px solid white;
+            padding: 10px 0;
+            box-sizing: border-box;
+            .title {
+                font-family: "myriad-pro";
+                font-size: 18px;
+                color: white;
+                line-height: 30px;
+                font-weight: 700;
+            }
+            ul.list {
+                list-style-type: none;
+                font-family: "myriad-pro";
+                font-size: 14px;
+                a {
+                    color: white;
+                    cursor: pointer;
+                    line-height: 30px;
+                    transition: 0.3s;
+                    text-decoration: none;
+                    font-family: "myriad-pro";
+                    &:hover {
+                        color: $verde-fuerte;
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+    .logofooter {
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        top: 8px;
+        height: 55px;
+        text-align: center;
+        margin-bottom: 20px;
+        img {
+            width: 70px;
+        }
+    }
+    .copy {
+        width: 100%;
+        height: 40px;
+        position: relative;
+        bottom: 0;
+        background: #359444;
+        left: 0;
+        text-align: center;
+        color: white;
+        padding: 0 10px;
+        font-size: 14px;
+        line-height: 40px;
+        .text {
+            font-weight: 300;
+        }
+    }
+}

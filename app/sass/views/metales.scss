@@ -1,0 +1,65 @@
+.containerPage {
+    padding-top: 64px;
+    .metales {
+        .banner {
+            position: relative;
+            max-width: 1300px;
+            height: 326px;
+            margin: 0 auto;
+            clear: both;
+            img {
+                width: 100%;
+            }
+            .title {
+                position: absolute;
+                z-index: 99;
+                top: 55px;
+                width: 100%;
+                text-align: center;
+                color: white;
+                .up {
+                    font-size: 50px;
+                }
+                .text {
+                    font-size: 18px;
+                    padding: 0 25%;
+                }
+            }
+        }
+        .listado-servicios {
+            position: relative;
+            max-width: 1300px;
+            overflow: auto;
+            margin: 30px auto;
+            padding: 10px;
+            box-sizing: border-box;
+            clear: both;
+            .clear {
+                width: 100%;
+                height: 40px;
+                float: left;
+            }
+            p.titleH {
+                top: 30px;
+            }
+            .service {
+                width: 49%;
+                float: left;
+                margin-right: 1%;
+                margin-top: 10px;
+                padding: 5px 10px;
+                box-sizing: border-box;
+                border: 1px solid $azul-claro;
+                border-radius: 6px;
+                border-left: 4px solid $azul-fuerte;
+                &:hover {
+                    background: $azul-claro;
+                    color: white;
+                }
+                p {
+                    padding: 0;
+                }
+            }
+        }
+    }
+}

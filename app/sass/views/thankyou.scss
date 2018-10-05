@@ -1,0 +1,41 @@
+.containerPage {
+    padding-top: 64px;
+    .gracias {
+        .banner {
+            position: relative;
+            max-width: 1300px;
+            height: 326px;
+            margin: 0 auto;
+            clear: both;
+            img {
+                width: 100%;
+            }
+            .title {
+                position: absolute;
+                z-index: 99;
+                top: 85px;
+                width: 100%;
+                text-align: center;
+                color: white;
+                .up {
+                    font-size: 50px;
+                }
+                .text {
+                    font-size: 18px;
+                    padding: 0 25%;
+                }
+            }
+        }
+        .texto {
+            position: relative;
+            max-width: 1300px;
+            padding: 40px;
+            box-sizing: border-box;
+            margin: 0 auto;
+            clear: both;
+            p {
+                padding: 0;
+            }
+        }
+    }
+}

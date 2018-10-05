@@ -1,0 +1,29 @@
+.header {
+    background-color: rgba(255, 255, 255, 0.8);
+    height: 64px;
+    border-bottom: 1px solid #f2f2f2;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    .logotipo {
+        width: 155px;
+        height: 100%;
+        position: relative;
+        float: left;
+        padding: 5px;
+        box-sizing: border-box;
+        z-index: 99!important;
+        a {
+            img {
+                width: 100%;
+            }
+        }
+    }
+    .register {
+        float: right;
+        width: 80%;
+        height: 100%;
+        padding: 13px;
+        box-sizing: border-box;
+    }
+}

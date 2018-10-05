@@ -1,0 +1,100 @@
+.containerPage {
+    padding-top: 64px;
+    .riesgos {
+        position: relative;
+        max-width: 1300px;
+        height: auto;
+        margin: 0 auto;
+        clear: both;
+        padding: 20px 0;
+        .list {
+            width: 100%;
+            border: 1px solid #f3f3f3;
+            overflow: auto;
+            border-radius: 6px;
+            .rowTitle {
+                width: 100%;
+                overflow: auto;
+                background: #f3f3f3;
+                padding: 6px;
+                .c1 {
+                    width: 20%;
+                    text-align: center;
+                    border-right: 1px solid #f3f3f3;
+                    padding: 5px;
+                    box-sizing: border-box;
+                }
+                .c2 {
+                    width: 10%;
+                    text-align: center;
+                    border-right: 1px solid #f3f3f3;
+                    box-sizing: border-box;
+                }
+                .c3 {
+                    width: 10%;
+                    text-align: center;
+                    border-right: 1px solid #f3f3f3;
+                }
+                .c4 {
+                    width: 30%;
+                    text-align: center;
+                    border-right: 1px solid #f3f3f3;
+                }
+                .c5 {
+                    width: 30%;
+                    text-align: center;
+                }
+            }
+            .rowData {
+                border-bottom: 1px solid #f3f3f3;
+                width: 100%;
+                overflow: hidden;
+                padding: 6px;
+                font-weight: 300;
+                font-size: 13px;
+                max-height: 180px;
+                position: relative;
+                color: black;
+                .c1 {
+                    width: 20%;
+                    text-align: center;
+                    border-right: 1px solid #f3f3f3;
+                    box-sizing: border-box;
+                    padding: 5px;
+                    height: 100%;
+                }
+                .c2 {
+                    width: 10%;
+                    text-align: center;
+                    border-right: 1px solid #f3f3f3;
+                    box-sizing: border-box;
+                    padding: 5px;
+                    height: 100%;
+                }
+                .c3 {
+                    width: 10%;
+                    text-align: center;
+                    border-right: 1px solid #f3f3f3;
+                    box-sizing: border-box;
+                    padding: 5px;
+                    height: 100%;
+                }
+                .c4 {
+                    width: 30%;
+                    text-align: center;
+                    border-right: 1px solid #f3f3f3;
+                    box-sizing: border-box;
+                    padding: 5px;
+                    height: 100%;
+                }
+                .c5 {
+                    width: 30%;
+                    text-align: center;
+                    box-sizing: border-box;
+                    padding: 5px;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}

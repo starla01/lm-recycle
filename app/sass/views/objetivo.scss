@@ -1,0 +1,128 @@
+.tableth {
+    .containerPage {
+        padding-top: 63px!important;
+        .about,
+        .objetivo {
+            .banner {
+                height: auto;
+                .title {
+                    top: 80px;
+                }
+            }
+        }
+    }
+}
+
+.tabletv {
+    .containerPage {
+        padding-top: 63px!important;
+        .about,
+        .objetivo {
+            .banner {
+                height: auto;
+                .title {
+                    top: 60px;
+                }
+            }
+        }
+    }
+}
+
+.phoneh {
+    .containerPage {
+        padding-top: 105px!important;
+        .about,
+        .objetivo {
+            .banner {
+                height: auto;
+                overflow: hidden;
+                img {
+                    width: 120%;
+                }
+                .title {
+                    top: 55px;
+                    .up {
+                        font-size: 40px;
+                    }
+                    .text {
+                        font-size: 16px;
+                        padding: 0px 20%;
+                        font-weight: 300;
+                        line-height: 20px;
+                    }
+                }
+            }
+            .listado-servicios {
+                .service {
+                    .generalText {
+                        font: 300 16px/20px "Lato", sans-serif;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.phonev {
+    .containerPage {
+        padding-top: 105px!important;
+        .about,
+        .objetivo {
+            .banner {
+                height: auto;
+                overflow: hidden;
+                img {
+                    width: 120%;
+                }
+                .title {
+                    top: 22px;
+                    .up {
+                        font-size: 30px;
+                    }
+                }
+            }
+            .texto {
+                padding: 10px;
+                .generalText {
+                    padding: 20px 15px;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+
+.containerPage {
+    padding-top: 64px;
+    .objetivo {
+        padding-bottom: 30px;
+        .banner {
+            position: relative;
+            max-width: 1300px;
+            height: 326px;
+            margin: 0 auto;
+            clear: both;
+            img {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+            .title {
+                position: absolute;
+                z-index: 99;
+                top: 115px;
+                width: 100%;
+                text-align: center;
+                color: white;
+                .up {
+                    font-size: 50px;
+                }
+                .text {
+                    font-size: 18px;
+                }
+            }
+        }
+        .texto {
+            padding: 30px 0;
+        }
+    }
+}

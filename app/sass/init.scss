@@ -1,0 +1,41 @@
+$verde-fuerte: #36783c;
+$verde: #359444;
+$verde-claro: #47b359;
+$azul-fuerte: #003891;
+$azul: #2670ca;
+$azul-claro: #0074c5;
+$gris-fuerte: #2f3a47;
+$gris: #364d5a;
+$gris-claro: #a0adab;
+$blanco: #ffffff;
+.blanco {
+    color: $blanco;
+}
+
+//Components
+@import 'components/button.scss';
+@import 'components/title.scss';
+@import 'components/text.scss';
+@import 'components/input.scss';
+@import 'components/wildcard.scss';
+@import 'generals.scss';
+@import 'header/header-desktop.scss';
+@import 'header/header-tablet.scss';
+@import 'header/header-mobile.scss';
+@import 'footer/footer-desktop.scss';
+@import 'footer/footer-mobile.scss';
+@import 'footer/footer-tablet.scss';
+//Views
+@import 'views/riesgos.scss';
+@import 'views/objetivo.scss';
+@import 'views/programa.scss';
+@import 'views/metales.scss';
+@import 'views/certificaciones.scss';
+@import 'views/servicios.scss';
+@import 'views/quienessomos.scss';
+@import 'views/contaminacion.scss';
+@import 'views/saludpublica.scss';
+@import 'home/home-desktop.scss';
+@import 'home/home-tablet.scss';
+@import 'home/home-mobile.scss';
+@import 'views/thankyou.scss';

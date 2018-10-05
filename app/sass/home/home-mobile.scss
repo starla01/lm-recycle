@@ -1,0 +1,90 @@
+.phoneh {
+    .containerPage {
+        padding-top: 105px;
+        .firstP {
+            .newUser {
+                .willCard {
+                    width: 55%;
+                }
+            }
+        }
+    }
+}
+
+.phonev {
+    .containerPage {
+        padding-top: 105px;
+        .bgimg-1 {
+            min-height: 400px;
+            .caption {
+                .logo {
+                    width: 100%;
+                    height: auto;
+                }
+                .titleH {
+                    font-size: 10pt;
+                }
+            }
+        }
+        .firstP {
+            .newUser {
+                .willCard {
+                    width: 100%;
+                }
+            }
+        }
+        .bgimg-2 {
+            .caption {
+                top: 13%;
+            }
+        }
+        .secondP {
+            .generalText {
+                font-weight: 300;
+                font-size: 16px;
+                padding: 0 20px;
+            }
+            .newUser {
+                .pet.sky {
+                    overflow: hidden;
+                    img {
+                        width: 180%;
+                        left: -120px;
+                        position: relative;
+                    }
+                }
+            }
+            ul {
+                .smallText {
+                    font-weight: 300;
+                    font-size: 14px;
+                    padding: 0 16px;
+                    text-align: justify;
+                }
+            }
+        }
+        .bgimg-3 {
+            .caption {
+                top: 10%;
+                .titleH {
+                    font-size: 18px;
+                }
+                .generalText {
+                    font-size: 14px;
+                }
+                #formContact {
+                    width: 100%;
+                    #contacto {
+                        .textSignup {
+                            .borderStatus {
+                                .box {
+                                    width: 100%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
